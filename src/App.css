@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+}
+
+.card {
+  height: 100% !important;
 }
 
 .App-logo {
