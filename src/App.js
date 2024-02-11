@@ -9,7 +9,7 @@ export default function App() {
     fetch("https://restcountries.com/v3.1/all")
       .then((res) => res.json())
       .then((data) => setCountries(data))
-      .catch((err) => console.log("error while fetching the data ", err));
+      .catch((err) => console.log(err));
   }, []);
   return (
     <div className="App">
