@@ -10,7 +10,7 @@ export default function App() {
       .then((res) => res.json())
       .then((data) => setCountries(data))
       .catch((err) => console.log("error while fetching the data ", err));
-  });
+  }, []);
   return (
     <div className="App">
       <h1>Countries</h1>
